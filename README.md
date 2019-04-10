@@ -8,12 +8,12 @@ This plugin adds gateway support for a REST API to Play! Framework 1 application
 
 ```
 require:
-    - gateway -> gateway 0.1.0
+    - gateway -> gateway 1.0.0
 
 repositories:
-    - sismics:
-        type:       http
-        artifact:   "http://release.sismics.com/repo/play/[module]-[revision].zip"
+    - sismicsNexusRaw:
+        type: http
+        artifact: "https://nexus.sismics.com/repository/sismics/[module]-[revision].zip"
         contains:
             - gateway -> *
 

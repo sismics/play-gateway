@@ -1,8 +1,12 @@
-self: play -> gateway 0.1.0
+self: play -> gateway 1.0.0
+
+configurations:
+    - provided:
+          exclude: true
 
 require:
     - play
-    - com.squareup.okhttp3 -> okhttp 3.8.1
-    - com.squareup.okio -> okio 1.13.0
+    - com.squareup.okhttp3 -> okhttp 3.13.1
+    - com.squareup.okio -> okio 1.17.2
     - org.apache.httpcomponents -> httpclient 4.5.3
     - org.apache.httpcomponents -> httpcore 4.4.5
