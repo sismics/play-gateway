@@ -1,3 +1,6 @@
+[![GitHub release](https://img.shields.io/github/release/sismics/play-gateway.svg?style=flat-square)](https://github.com/sismics/play-gateway/releases/latest)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 # play-gateway plugin
 
 This plugin adds gateway support for a REST API to Play! Framework 1 applications.
@@ -8,7 +11,7 @@ This plugin adds gateway support for a REST API to Play! Framework 1 application
 
 ```
 require:
-    - gateway -> gateway 1.0.0
+    - gateway -> gateway 1.1.0
 
 repositories:
     - sismicsNexusRaw:
